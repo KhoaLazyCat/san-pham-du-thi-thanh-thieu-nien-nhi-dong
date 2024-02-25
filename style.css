@@ -1,0 +1,128 @@
+html{
+  width: 100%;
+  height: 100%;
+  background-color: hsl(214.29deg 9.86% 13.92%);
+}
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.navbar{
+  width: 100%;
+  height: 5%;
+  background-color: hsl(222deg 9.8% 20%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.toolbar{
+  width: 3%;
+  height: 100%;
+  background-color: hsl(222deg 9.8% 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2%;
+}
+#name{
+  height:60%;
+  width: 7%;
+  outline: none;
+  color: white;
+  background: hsl(222deg 9.8% 20%);
+  border: 0.1px solid hsl(228, 4%, 27%);
+  border-radius: 5px;
+}
+#language{
+  height:70%;
+  width: 7%;
+  outline: none;
+  color: white;
+  background: hsl(222deg 9.8% 20%);
+  border: 0.1px solid hsl(228, 4%, 27%);
+  border-radius: 5px;
+}
+#new_data{
+  margin-top: 30%;
+  width: 70%;
+  /* height: 4.5%; */
+  opacity: none;
+}
+#download{
+  width: 70%;
+  /* height: 4.5%; */
+  opacity: none;
+}
+#upload{
+  width: 70%;
+  /* height: 4.5%; */
+  opacity: none;
+}
+#data{
+  width: 70%;
+  /* height: 4.5%; */
+  opacity: none;
+}
+#delete{
+  width: 70%;
+  /* height: 4.5%; */
+  opacity: none;
+}
+.container1{
+  width: 100%;
+  height: 95%;
+  display: flex;
+  justify-content: flex-start;
+  z-index: -1;
+}
+#text-place{
+  width: 100%;
+  height: 100%;
+  font-size: 17px;
+  border: none;
+  user-select: text;
+  z-index: 1;
+}
+#logo{
+  position: absolute;
+  top: 0.6%;
+  left: 0.5%;
+  width: 1.9%;
+}
+#new_data:hover{
+  background-color: whitesmoke;
+  border-radius: 100%;
+}
+#download:hover{
+  background-color: whitesmoke;
+  border-radius: 100%;
+}
+#upload:hover{
+  background-color: whitesmoke;
+  border-radius: 100%;
+}
+#data:hover{
+  background-color: whitesmoke;
+  border-radius: 100%;
+}
+#delete:hover{
+  background-color: whitesmoke;
+  border-radius: 100%;
+}
+.container{
+  width: 100%;
+  height: 100%;
+}
+button{
+  width:100%;
+  height: 3%;
+  color: hsl(0 0% 62%);
+  border: none;
+  background: transparent;
+}
+button:hover{
+  background-color: hsl(215, 11%, 22%);
+}

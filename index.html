@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Editor</title>
+</head>
+<body>
+  <img src="icon/logo.png" id = "logo">
+  <div class="navbar">
+    <input id = "name"></input>
+    <select onchange="val(this)" id = "language">
+      <option value="0"></option>
+      <option value="1">python</option>
+      <option value="2">javascript</option>
+      <option value="3">c_cpp</option>
+      <option value="4">xml</option>
+      <option value="5">java</option>
+      <option value="6">swift</option>
+      <option value="7">golang</option>
+      <option value="8">csharp</option>
+      <option value="9">html</option>
+      <option value="10">css</option>
+      <option value="11">typescript</option>
+      <option value="12">lua</option>
+      <option value="13">ruby</option>
+      <option value="14">json</option>
+      <option value="15">dart</option>
+      <option value="16">fortran</option>
+      <option value="17">markdown</option>
+      <option value="18">php</option>
+      <option value="19">django</option>
+      <option value="20">scss</option>
+      <option value="21">dockerfile</option>
+      <option value="22">kotlin</option>
+      <option value="23">livescript</option>
+      <option value="24">pascal</option>
+      <option value="25">xquery</option>
+      <option value="26">sql</option>
+      <option value="27">nginx</option>
+    </select>
+  </div>
+  <div class="container1">
+    <div class = "toolbar">
+      <img id = "new_data" src="icon/new_data.png">
+      <img id = "download" src = "icon/download.png">
+      <img id = "upload" src = "icon/upload.png">
+      <img id = "data" src = "icon/data.png">
+      <img id = "delete" src = "icon/delete.png">
+    </div>
+    <div id="container"></div>
+    <div id = "text-place" class = "text-place" role="textbox" contenteditable="true" aria-labelledby="txtboxLabel" spellcheck = "false"></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.24.0/ace.js" integrity="sha512-+EJ2qvrqiIxZ6NWr5/nzFnbIg/h8mMbacbOff4PXdtobKKIK2rvRkVgTvVLRz9KCbEuHbe2FJqD0TFD603YYZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src = "app.js"></script>
+</body>
+</html>
